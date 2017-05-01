@@ -33,7 +33,17 @@ namespace WeatherTest.SampleApp
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
 
-            app.UseMvc();
+            //serve js and css from static path
+            app.UseStaticFiles();
+
+            //set default route
+            app.UseMvc(routes =>
+            {
+                routes.MapRoute(
+                    name: "default",
+                    template: "{controller=Page}/{action=Index}"
+                );
+            });
         }
     }
 }

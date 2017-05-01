@@ -17,6 +17,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherTest.SampleApp", "src\WeatherTest.SampleApp\WeatherTest.SampleApp.csproj", "{2F616D7D-1254-4875-98FC-425D62374145}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherTest.Data", "src\WeatherTest.Data\WeatherTest.Data.csproj", "{68ACB3D0-A53F-4A09-92DC-D53650B6D197}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{8FD24C48-D111-48AC-B3B1-31D46F91360E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherTest.Sample.Tests", "test\WeatherTest.Sample.Tests\WeatherTest.Sample.Tests.csproj", "{7A4DA55A-E366-444A-A392-741F78755752}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +41,14 @@ Global
 		{2F616D7D-1254-4875-98FC-425D62374145}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F616D7D-1254-4875-98FC-425D62374145}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F616D7D-1254-4875-98FC-425D62374145}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68ACB3D0-A53F-4A09-92DC-D53650B6D197}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68ACB3D0-A53F-4A09-92DC-D53650B6D197}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68ACB3D0-A53F-4A09-92DC-D53650B6D197}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68ACB3D0-A53F-4A09-92DC-D53650B6D197}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A4DA55A-E366-444A-A392-741F78755752}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A4DA55A-E366-444A-A392-741F78755752}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A4DA55A-E366-444A-A392-741F78755752}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A4DA55A-E366-444A-A392-741F78755752}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -43,5 +57,7 @@ Global
 		{CDEEDE5B-1632-4B8E-B99A-03FD0B6DFE60} = {E981D02F-62A0-4AED-8331-CCFE0BB65906}
 		{BDA746DF-048B-490C-AE8D-8C62A6D20FAC} = {E981D02F-62A0-4AED-8331-CCFE0BB65906}
 		{2F616D7D-1254-4875-98FC-425D62374145} = {E981D02F-62A0-4AED-8331-CCFE0BB65906}
+		{68ACB3D0-A53F-4A09-92DC-D53650B6D197} = {E981D02F-62A0-4AED-8331-CCFE0BB65906}
+		{7A4DA55A-E366-444A-A392-741F78755752} = {8FD24C48-D111-48AC-B3B1-31D46F91360E}
 	EndGlobalSection
 EndGlobal
