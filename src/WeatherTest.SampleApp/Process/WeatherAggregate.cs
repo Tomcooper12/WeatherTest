@@ -25,6 +25,7 @@ namespace WeatherTest.SampleApp.Process
         {
             SpeedUnit = speed;
             TempUnit = temp;
+            //Dep inject
             DataAccess = data;
         }
 
